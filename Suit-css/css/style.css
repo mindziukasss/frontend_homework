@@ -1,0 +1,44 @@
+body {
+    background: #eee;
+}
+
+.Container {
+    margin-top: 10%;
+    margin-right: 25%;
+    margin-left: 25%;
+
+}
+
+.Alert {
+    background-color: #ffffff;
+    padding: 25px 40px 20px 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px #b1b3b4;
+}
+
+.Alert--success {
+    border: #1d8631 solid 1px;
+    border-right: #1d8631 solid 40px;
+}
+
+.Alert-break {
+    margin-top: 10px;
+}
+
+.Alert--warning {
+    border: #fd9d31 solid 1px;
+    border-right: #fd9d31 solid 40px;
+}
+
+.Alert-heading {
+    font-size: 20px;
+}
+
+.Alert-text {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Alert-text--email {
+    color: #0c89ca;
+}

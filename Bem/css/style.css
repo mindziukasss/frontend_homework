@@ -1,0 +1,47 @@
+body {
+    background: #eee;
+    margin-top: 10%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.container {
+    margin-top: 10%;
+    margin-right: 25%;
+    margin-left: 25%;
+
+}
+
+.alert {
+    background-color: #ffffff;
+    padding: 25px 40px 20px 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px #b1b3b4;
+}
+
+.alert--success {
+    border: #1d8631 solid 1px;
+    border-right: #1d8631 solid 40px;
+}
+
+.alert_break {
+    margin-top: 10px;
+}
+
+.alert--warning {
+    border: #fd9d31 solid 1px;
+    border-right: #fd9d31 solid 40px;
+}
+
+.alert__heading {
+    font-size: 20px;
+}
+
+.alert__text {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.alert__text--email {
+    color: #0c89ca;
+}
